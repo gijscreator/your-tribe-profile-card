@@ -115,7 +115,7 @@ span {
   font-size: 0.6rem;
   margin-bottom: -5px;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .portfolio-image {
   display: none;
 }
