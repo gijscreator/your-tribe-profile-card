@@ -130,7 +130,7 @@ span {
   max-width: 400px;
 }
 }
-@media screen and (min-width: 900px;) {
+@media screen and (min-width: 900px) {
 .wrapper-center {
  width: 60%;
 }
