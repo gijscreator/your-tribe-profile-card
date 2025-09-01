@@ -1,59 +1,44 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    
-    <article class="profile-card-example">
-      
-      <header class="profile-card-example-header">
-        
-        <h1>Jane Doe</h1>
-        
-        <p><em>Creatieve Frontend Developer in spé</em></p>
-        
-        <button class="profile-card-example-button">
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <title>Wijzig layout</title>
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-          <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-            <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-            <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-            <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-          </svg>
-        </button>
-        
-      </header>
-  
-      <img src="assets/creative-coder.png" alt="" width="800" height="800" class="profile-card-example-img">
 
-      <dl class="profile-card-example-dl">
-        <dt>HTML</dt>
-        <dd>🏆🏆🏆</dd>
-        
-        <dt>CSS</dt>
-        <dd>🏆🏆</dd>
-        
-        <dt>JavaScript</dt>
-        <dd>🏆🏆🏆🏆</dd>
-      </dl>
-  
-      <p>Het WEB is te gek! <br> Met HTML, CSS en JS kan ik vette, interactieve web apps maken.</p>
-      
-    </article>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visitekaartje Gijs Nagtegaal</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
 
-    <script src="scripts/script.js"></script>
-    
-  </body>
+<body>
+  <div class="totale-wrapper">
+    <div class="wrapper-center">
+      <div class="wrapper-tekst-knop">
+        <img class="profielfoto" src="https://cdn.shopify.com/s/files/1/0938/0826/3505/files/fot4.png?v=1756372220"
+          alt="profielfoto">
+        <p class="tekst-over-mij1">
+          Gijs Nagtegaal, <span class="leeftijd"> 19 jaar </span>
+        </p>
+                <p class="tekst-over-mij2">
+          Creative front end developer
+        </p>
+        <p class="tekst-over-mij3">
+          Mijn kennis: <br><br>
+          <span> html </span>
+          <span> css </span>
+          <span> javascript </span>
+          <br>
+          <br>
+          <span class="html-percentage"> 20% </span>
+          <span class="css-percentage"> 30% </span>
+          <span class="js-percentage"> 10% </span>
+        </p>
+        <a class="button-blue" src="/page2.html" href="/page2.html">
+          Mijn portfolio
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/script.js"></script>
+
+</body>
+
 </html>
