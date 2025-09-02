@@ -55,17 +55,19 @@ span {
 }
 .button-blue {
   font-size:0.8rem;
-  padding: 10px 30%;
+  padding: 15px 16%;
   height: 30px;
   color: white;
   background: rgb(64, 118, 212);
   border: none;
   border-radius: 15px;
+  margin-bottom: 50px;
   text-decoration: none;
 }
 .button-blue:hover {
-  background:black;
-  color:white;
+  background-color: rgb(64, 118, 212);
+  color: white;
+  box-shadow: rgb(64, 118, 212) 0px 7px 29px 0px;
 }
 
 .wrapper-center {
