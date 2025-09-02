@@ -146,7 +146,7 @@ span {
   gap: 0px;
   padding: 0px 100px;
   align-items:center;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto
 }
 
@@ -211,7 +211,7 @@ span {
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1068px) {
   .portfolio-wrapper {
     grid-template-columns: 1fr;
     padding: 0px 20px
