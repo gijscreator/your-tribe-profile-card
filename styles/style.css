@@ -45,6 +45,8 @@ span {
   object-fit: cover;
   width: 150px;
   height: 150px;
+  border: rgb(64, 118, 212) solid 3px;
+  box-shadow: 0px 0px 10px rgb(64, 118, 212);
 }
 .button-blue {
   font-size:0.8rem;
