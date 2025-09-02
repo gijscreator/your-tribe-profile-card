@@ -44,12 +44,12 @@ span {
 .profielfoto {
   border-radius: 100%;
   object-fit: cover;
-  width: 150px;
-  height: 150px;
+  width: 35%;
+  height: 100%;
   border: rgb(64, 118, 212) solid 3px;
   box-shadow: 0px 0px 10px rgb(64, 118, 212);
-
 }
+
 .profielfoto:hover {
   transform: rotate3d(0, 1, 0, 1600deg);
   transition: ease-in-out, 20s;
@@ -117,9 +117,6 @@ span {
   font-size: 0.7rem;
 }
 
-.portfolio-image {
-  width: 60%
-}
 #hidden-html {
   display: none;
 }
