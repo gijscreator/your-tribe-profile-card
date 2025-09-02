@@ -69,6 +69,13 @@ span {
   color: white;
   box-shadow: rgb(64, 118, 212) 0px 7px 29px 0px;
 }
+.button-blue:active {
+  transform: translateY(10px);
+  transition: 100ms;
+  background-color: rgb(64, 118, 212);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(64, 118, 212) 0px 0px 0px 0px;
+}
 
 .wrapper-center {
   width:90%;
