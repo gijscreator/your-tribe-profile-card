@@ -47,6 +47,11 @@ span {
   height: 150px;
   border: rgb(64, 118, 212) solid 3px;
   box-shadow: 0px 0px 10px rgb(64, 118, 212);
+
+}
+.profielfoto:hover {
+  transform: rotate3d(0, 1, 0, 1600deg);
+  transition: ease-in-out, 20s;
 }
 .button-blue {
   font-size:0.8rem;
