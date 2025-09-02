@@ -61,12 +61,13 @@ span {
   transition: ease-in-out, 20s;
 }
 .button-blue {
-  padding: 15px 16%;
+  padding: 1% 7%;
   height: 30px;
+  font-size: 1rem;
   color: white;
   background: rgb(64, 118, 212);
   border: none;
-  border-radius: 15px;
+  border-radius: 15px 5px;
   text-decoration: none;
   font-weight: 800;
 }
