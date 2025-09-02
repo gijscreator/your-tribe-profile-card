@@ -224,3 +224,9 @@ span {
     height: auto;
   }
 }
+
+@media (min-width: 678px) {
+.profielfoto {
+  width: 15%;
+}
+}
