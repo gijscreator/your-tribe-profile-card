@@ -137,18 +137,34 @@ span {
   margin-bottom: -5px;
 }
 
-/* styling portfolio */
-
+/* styling portfolio grid */
 
 .portfolio-wrapper {
-  display: grid;
-  grid-template-columns: .6fr 1fr;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
-  gap: 0px;
   padding: 0px 100px;
   align-items:center;
   max-width: 1500px;
-  margin: 0 auto
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.opdracht-card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 25px;
+  padding:20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out(0.25, 0.8, 0.25, 1);
+}
+
+.opdracht-card:hover {
+  box-shadow: 0 4px 15px rgb(64, 118, 212);
+  transform: translate3d(-5px, -5px, 0px);
+  transition: all 0.3s ease-in-out;
+  transform: rotate3d(6, 3, 3, 10deg);
 }
 
 .portfolio-image {
@@ -157,6 +173,20 @@ span {
   max-height: 540px;
   max-width: 800px;
 }
+
+.portfolio-titel {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.opdrachtgever, a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+/* styling portfolio page */
 
 .pill {
   color:white;
