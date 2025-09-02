@@ -141,11 +141,13 @@ span {
 
 .portfolio-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: .6fr 1fr;
   justify-content: space-around;
-  gap: 20px;
+  gap: 0px;
   padding: 0px 100px;
-  align-items:center
+  align-items:center;
+  max-width: 1200px;
+  margin: 0 auto
 }
 
 .portfolio-image {
