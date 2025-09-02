@@ -1,18 +1,24 @@
+/* general styles */ 
+
 p, a, h1 {
   font-size: 1rem;
   font-family: Arial, sans-serif;
   font-weight: 800;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* styling home */
+
 .tekst-over-mij3 {
   margin-bottom: 30px;
 }
 .totale-wrapper {
   display: flex;
   gap: 10%;
-}
-.afbeelding-rechts {
-  width: 300px;
-  height: 550px;
 }
 .leeftijd {
   color:white;
@@ -125,8 +131,31 @@ span {
 #hidden-js {
   display: none;
 }
+.small {
+  font-size: 0.6rem;
+  margin-bottom: -5px;
+}
 
-.text-opdracht {
+/* styling portfolio */
+
+
+.portfolio-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 0px 100px;
+  align-items:center
+}
+
+.portfolio-image {
+  width: auto;
+  height:auto;
+  max-height: 540px;
+  max-width: 800px;
+}
+
+.pill {
   color:white;
   font-size: 0.7rem;
   font-weight: 800;
@@ -134,29 +163,64 @@ span {
   padding: 6px 9px;
   border-radius: 10px;
   margin-right: 10px;
-  width: 90px;
+  width: 30%;
+  text-align:center;
+  display: inline-block;
+  text-decoration: none;
 }
-.small {
-  font-size: 0.6rem;
-  margin-bottom: -5px;
+
+.opdracht1 {
+  background-color: rgb(64, 118, 212);
 }
-@media screen and (max-width: 800px) {
-  .portfolio-image {
-  display: none;
+
+.opdracht1:hover {
+  background-color: rgb(65, 108, 181);
+  color: white;
+  box-shadow: rgb(64, 118, 212) 0px 0px 10px 0px;
 }
-.wrapper-left {
+
+.opdracht2 {
+  background-color: rgb(49, 0, 164);
+}
+
+.opdracht2:hover {
+  background-color: rgb(49, 0, 164);
+  color: white;
+  box-shadow: rgb(49, 0, 164) 0px 0px 10px 0px;
+}
+
+.center-h1 {
+  text-align: center;
+  font-size: 4rem;
+
+}
+
+.company-img {
+  width:150px;
+  height:auto;
+}
+
+.list-icons {
+  padding:0;
+  list-style:none;
+}
+
+.portfolio-left {
   width: 100%;
-  box-shadow: none;
 }
-.portfolio-mobile {
-  border-radius: 25px;
-  width: 99%;
-  margin:20px;
-  max-width: 400px;
-}
-}
-@media screen and (min-width: 900px) {
-.profielfoto {
-  width: 15%;
-}
+
+@media (max-width: 768px) {
+  .portfolio-wrapper {
+    grid-template-columns: 1fr;
+    padding: 0px 20px
+  }
+
+  .portfolio-left {
+    width: 100%;
+  }
+
+  .portfolio-image {
+    max-width: 100%;
+    height: auto;
+  }
 }
