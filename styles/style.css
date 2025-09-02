@@ -62,7 +62,6 @@ span {
   background: rgb(64, 118, 212);
   border: none;
   border-radius: 15px;
-  margin-bottom: 50px;
   text-decoration: none;
   font-weight: 800;
 }
@@ -81,11 +80,12 @@ span {
 
 .wrapper-center {
   width:90%;
-  height: 420px;
+  height: auto;
   margin-left: 100px;
   background: #f2f2f6;
   border-radius: 25px;
   margin: 0 auto;
+  padding: 0px 0px 20px 0px;
   text-align: center;
   box-shadow: 2px 3px 10px rgb(64, 118, 212);
 }
@@ -157,9 +157,6 @@ span {
 }
 }
 @media screen and (min-width: 900px) {
-.wrapper-center {
- width: 60%;
-}
 .profielfoto {
   width: 15%;
 }
