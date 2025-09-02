@@ -93,6 +93,7 @@ span {
   padding: 0px 0px 20px 0px;
   text-align: center;
   box-shadow: 2px 3px 10px rgb(64, 118, 212);
+  max-width: 800px;
 }
 
 .wrapper-left {
