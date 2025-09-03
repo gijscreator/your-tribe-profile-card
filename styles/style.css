@@ -298,12 +298,16 @@ object-fit: cover;
   width: 100%;
 }
 
+/* mobile styling */
+
 @media (max-width: 1068px) {
   .portfolio-wrapper {
     grid-template-columns: 1fr;
     padding: 0px 20px
   }
-
+  .button-blue {
+    padding: 3% 20%;
+  }
   .portfolio-left {
     width: 100%;
   }
