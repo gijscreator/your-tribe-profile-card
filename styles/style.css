@@ -1,6 +1,8 @@
-/* general styles */ 
+/* general styles */
 
-p, a, h1 {
+p,
+a,
+h1 {
   font-size: 1rem;
   font-family: Arial, sans-serif;
   font-weight: 800;
@@ -16,37 +18,44 @@ img {
 .tekst-over-mij3 {
   margin-bottom: 30px;
 }
+
 .totale-wrapper {
   display: flex;
   gap: 10%;
 }
+
 .leeftijd {
-  color:white;
+  color: white;
   font-weight: 800;
   background: rgb(64, 118, 212);
   padding: 4px;
   border-radius: 8px;
 }
+
 span {
-  color:white;
+  color: white;
   font-weight: 800;
   background: rgb(64, 118, 212);
   padding: 6px 9px;
   border-radius: 10px 2px;
   margin-right: 5px;
 }
+
 .css-percentage {
   padding: 6px 21px;
   border-radius: 2px 10px;
 }
+
 .js-percentage {
   padding: 6px 10px;
   border-radius: 2px 10px;
 }
+
 .html-percentage {
   padding: 6px 15px;
   border-radius: 2px 10px;
 }
+
 .profielfoto {
   border-radius: 100%;
   object-fit: cover;
@@ -60,6 +69,7 @@ span {
   transform: rotate3d(0, 1, 0, 1600deg);
   transition: ease-in-out, 20s;
 }
+
 .button-blue {
   padding: 1% 7%;
   height: 30px;
@@ -71,11 +81,13 @@ span {
   text-decoration: none;
   font-weight: 800;
 }
+
 .button-blue:hover {
   background-color: rgb(64, 118, 212);
   color: white;
   box-shadow: rgb(64, 118, 212) 0px 7px 29px 0px;
 }
+
 .button-blue:active {
   transform: translateY(10px);
   transition: 100ms;
@@ -85,7 +97,7 @@ span {
 }
 
 .wrapper-center {
-  width:90%;
+  width: 90%;
   height: auto;
   margin-left: 100px;
   background: #f2f2f6;
@@ -98,7 +110,7 @@ span {
 }
 
 .wrapper-left {
-  width:40%;
+  width: 40%;
   height: auto;
   margin-left: 20px;
   background: #f2f2f6;
@@ -109,17 +121,18 @@ span {
 
 .wrapper-rechts {
   width: 30%;
-  margin-right:10%;
+  margin-right: 10%;
 }
 
 .wrapper-tekst-knop {
-  padding:20px;
+  padding: 20px;
 }
 
 .links-text {
   margin-left: 20px;
   display: inline-block;
 }
+
 .p-zin {
   font-size: 0.7rem;
 }
@@ -127,12 +140,15 @@ span {
 #hidden-html {
   display: none;
 }
+
 #hidden-css {
   display: none;
 }
+
 #hidden-js {
   display: none;
 }
+
 .small {
   font-size: 0.6rem;
   margin-bottom: -5px;
@@ -148,7 +164,7 @@ span {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-around;
   padding: 0px 100px;
-  align-items:center;
+  align-items: center;
   max-width: 1500px;
   margin: 0 auto;
   gap: 40px;
@@ -160,7 +176,7 @@ span {
   background: white;
   border: 1px solid #eee;
   border-radius: 25px;
-  padding:20px;
+  padding: 20px;
   overflow: hidden;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out(0.25, 0.8, 0.25, 1);
@@ -175,7 +191,7 @@ span {
 
 .portfolio-image {
   width: 100%;
-  height:100%;
+  height: 100%;
   max-height: 540px;
   max-width: 800px;
 }
@@ -185,7 +201,8 @@ span {
   font-size: 4rem;
 }
 
-.opdrachtgever, a{
+.opdrachtgever,
+a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
@@ -193,21 +210,21 @@ span {
 }
 
 .opdracht-card:hover .opdracht-card-onhover {
-  display:flex;
+  display: flex;
 }
 
 .opdracht-card-onhover {
-  display:none;
-  position:absolute;
+  display: none;
+  position: absolute;
   color: white;
   font-size: 1rem;
   width: 100%;
   height: 100%;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-color: rgb(64, 118, 212);
   border: none;
-  padding:30px;
+  padding: 30px;
   justify-content: left;
   align-items: left;
   flex-direction: column;
@@ -215,34 +232,35 @@ span {
 
 .hover-card-img {
   width: 30%;
-  height:auto;
-  max-height:100%;
+  height: auto;
+  max-height: 100%;
   justify-content: left;
 }
 
-.subtext > p {
+.subtext>p {
   text-align: left;
 }
 
 .p-zin {
   margin-bottom: 0px;
 }
+
 .gotoportfolio {
   width: 80%;
   justify-content: center;
-  display:flex;
-  background-color:#ffffff;
+  display: flex;
+  background-color: #ffffff;
   color: black;
   border: none;
   font-weight: 800;
   padding: 10px 10px;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 .subtext-img {
-width: 80%;
-height: auto;
-object-fit: cover;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* mobile styling portfolio grid */
@@ -257,7 +275,7 @@ object-fit: cover;
 /* styling portfolio page */
 
 .pill {
-  color:white;
+  color: white;
   font-size: 0.7rem;
   font-weight: 800;
   background: rgb(64, 118, 212);
@@ -265,7 +283,7 @@ object-fit: cover;
   border-radius: 10px;
   margin-right: 10px;
   width: 30%;
-  text-align:center;
+  text-align: center;
   display: inline-block;
   text-decoration: none;
 }
@@ -297,13 +315,13 @@ object-fit: cover;
 }
 
 .company-img {
-  width:150px;
-  height:auto;
+  width: 150px;
+  height: auto;
 }
 
 .list-icons {
-  padding:0;
-  list-style:none;
+  padding: 0;
+  list-style: none;
 }
 
 .portfolio-left {
@@ -317,9 +335,11 @@ object-fit: cover;
     grid-template-columns: 1fr;
     padding: 0px 20px
   }
+
   .button-blue {
     padding: 3% 20%;
   }
+
   .portfolio-left {
     width: 100%;
   }
@@ -331,7 +351,7 @@ object-fit: cover;
 }
 
 @media (min-width: 678px) {
-.profielfoto {
-  width: 15%;
-}
+  .profielfoto {
+    width: 15%;
+  }
 }
