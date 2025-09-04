@@ -170,8 +170,8 @@ span {
 /* styling portfolio grid */
 
 .portfolio-wrapper {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 0px 100px;
   align-items: center;
