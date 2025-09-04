@@ -8,6 +8,9 @@ h1 {
   font-weight: 800;
 }
 
+body {
+  margin-top: 50px;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -330,7 +333,7 @@ a {
 
 /* mobile styling */
 
-@media (max-width: 1068px) {
+@media (max-width: 768px) {
   .portfolio-wrapper {
     grid-template-columns: 1fr;
     padding: 0px 20px
