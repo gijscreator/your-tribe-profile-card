@@ -240,6 +240,13 @@ a {
   justify-content: left;
 }
 
+.hover-card-img1 {
+  width: 40%;
+  height: auto;
+  max-height: 70px;
+  justify-content: left;
+}
+
 .subtext>p {
   text-align: left;
 }
