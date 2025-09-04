@@ -84,6 +84,18 @@ span {
   padding: 1% 7%;
   height: 100%;
   font-size: 1rem;
+  color: rgb(255, 255, 255);
+  background: rgb(64, 118, 212);
+  border: none;
+  border-radius: 15px 5px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.button-green {
+  padding: 2% 7%;
+  height: 100%;
+  font-size: 1rem;
   color: rgb(0, 0, 0);
   background: rgb(255, 255, 255);
   border: none;
@@ -92,8 +104,22 @@ span {
   font-weight: 800;
 }
 
-.button-blue:hover {
+.button-green:hover {
   background-color: rgb(30, 180, 0);
+  color: white;
+  box-shadow: rgb(64, 118, 212) 0px 7px 29px 0px;
+}
+
+.button-green:active {
+  transform: translateY(10px);
+  transition: 100ms;
+  background-color: rgb(30, 180, 0);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(64, 118, 212) 0px 0px 0px 0px;
+}
+
+.button-blue:hover {
+  background-color: rgb(64, 118, 212);
   color: white;
   box-shadow: rgb(64, 118, 212) 0px 7px 29px 0px;
 }
@@ -101,8 +127,8 @@ span {
 .button-blue:active {
   transform: translateY(10px);
   transition: 100ms;
-  background-color: rgb(30, 180, 0);
-  color: hsl(0, 0%, 100%);
+  background-color: white;
+  color: black;
   box-shadow: rgb(64, 118, 212) 0px 0px 0px 0px;
 }
 
