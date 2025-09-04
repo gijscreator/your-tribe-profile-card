@@ -82,10 +82,10 @@ span {
 
 .button-blue {
   padding: 1% 7%;
-  height: 30px;
+  height: 100%;
   font-size: 1rem;
-  color: white;
-  background: rgb(64, 118, 212);
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
   border: none;
   border-radius: 15px 5px;
   text-decoration: none;
@@ -93,7 +93,7 @@ span {
 }
 
 .button-blue:hover {
-  background-color: rgb(64, 118, 212);
+  background-color: rgb(30, 180, 0);
   color: white;
   box-shadow: rgb(64, 118, 212) 0px 7px 29px 0px;
 }
@@ -101,7 +101,7 @@ span {
 .button-blue:active {
   transform: translateY(10px);
   transition: 100ms;
-  background-color: rgb(64, 118, 212);
+  background-color: rgb(30, 180, 0);
   color: hsl(0, 0%, 100%);
   box-shadow: rgb(64, 118, 212) 0px 0px 0px 0px;
 }
@@ -344,13 +344,17 @@ a {
 .portfolio-left {
   width: 100%;
 }
-
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
 /* mobile styling */
 
 @media (max-width: 768px) {
   .portfolio-wrapper {
-    grid-template-columns: 1fr;
-    padding: 0px 20px
+    flex-direction:column;
+    padding: 0px 20px;
   }
 
   .button-blue {
