@@ -80,8 +80,8 @@ span {
   transition: ease-in-out, 20s;
 }
 
-.button-blue {
-  padding: 1% 7%;
+.button {
+  padding: .5rem 7%;
   height: 100%;
   font-size: 1rem;
   color: rgb(255, 255, 255);
@@ -92,16 +92,12 @@ span {
   font-weight: 800;
 }
 
-.button-green {
-  padding: 2% 7%;
-  height: 100%;
-  font-size: 1rem;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
-  border: none;
-  border-radius: 15px 5px;
-  text-decoration: none;
-  font-weight: 800;
+.blue {
+  background-color: rgb(64, 118, 212);
+}
+
+.green {
+  background-color: rgb(30, 180, 0);
 }
 
 .button-green:hover {
@@ -145,28 +141,8 @@ span {
   max-width: 800px;
 }
 
-.wrapper-left {
-  width: 40%;
-  height: auto;
-  margin-left: 20px;
-  background: #f2f2f6;
-  border-radius: 25px;
-  text-align: left;
-  box-shadow: 2px 3px 10px rgb(61, 61, 61);
-}
-
-.wrapper-rechts {
-  width: 30%;
-  margin-right: 10%;
-}
-
 .wrapper-tekst-knop {
   padding: 20px;
-}
-
-.links-text {
-  margin-left: 20px;
-  display: inline-block;
 }
 
 .p-zin {
@@ -183,11 +159,6 @@ span {
 
 #hidden-js {
   display: none;
-}
-
-.small {
-  font-size: 0.6rem;
-  margin-bottom: -5px;
 }
 
 /* Mobile styling home */
@@ -349,12 +320,6 @@ a {
   background-color: rgb(49, 0, 164);
   color: white;
   box-shadow: rgb(49, 0, 164) 0px 0px 10px 0px;
-}
-
-.center-h1 {
-  text-align: center;
-  font-size: 4rem;
-
 }
 
 .company-img {
